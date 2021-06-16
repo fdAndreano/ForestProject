@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../exam/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="conteiner_menu">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+                <ul class="menu__box">
+                  <li><a class="menu__item" href="#">Stories</a></li>
+                  <li><a class="menu__item" href="#">Gallery</a></li>
+                  <li><a class="menu__item" href="#">Features</a></li>
+                  <li><a class="menu__item" href="#">Write to as</a></li>
+                </ul>
+              </div>
+            <div class="header_logo"><a href="#">LOGO</a></div>
+            <nav class="nav_item">
+                <div class="mneu_item">
+                    <a href="#" class="menu_link">Stories</a>
+                    <a href="#" class="menu_link">Gallery</a>
+                    <a href="#" class="menu_link">Features</a>
+                    <a href="#" class="menu_link">Write to as</a>
+                </div>
+                <div class="icon_item">
+                    <a href="" class="icon_link"><img src="data:image/png;base64,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" alt="Error" class="heder_icon"></a>
+                    <a href="" class="icon_link"><img src="https://image.flaticon.com/icons/png/512/59/59439.png" alt="Error" class="heder_icon"></a>
+                    <a href="" class="icon_link"><img src="https://img.icons8.com/ios/452/instagram-new--v1.png " alt="Error" class="heder_icon"></a>
+                    <a href="" class="icon_link"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwGYZdF3tmNizlbNxIuWCzmXsWej3IYyH3DQ&usqp=CAU" alt="Error" class="heder_icon"></a>
+                    <a href="" class="icon_link"><img src="data:image/png;base64,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" alt="Error" class="heder_icon"></a>
+                </div>
+            </nav>
+        </div>
+        <main class="main">
+            <div class="container">
+
+                <div class="section1">
+                    <div class="text_block">
+                        <h1>Lorem, ipsum dolor.</h1>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod laboriosam suscipit fugiat praesentium reiciendis ex nobis. Culpa, laborum dolore? Aut, cupiditate? Ab exercitationem inventore deserunt facilis rem. Nisi, cumque error.</p>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="section_btn">START</button> -->
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1444724334165-e7050f2229a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="" class="sec1">
+                </div>
+
+                <div class="section2">
+                    <img src="https://images.unsplash.com/photo-1444724334165-e7050f2229a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="" class="sec2">
+                    <div class="text_block">
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod laboriosam suscipit fugiat praesentium reiciendis ex nobis. Culpa, laborum dolore? Aut, cupiditate? Ab exercitationem inventore deserunt facilis rem. Nisi, cumque error.</p>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quasi quisquam, magni laboriosam molestiae dolorum omnis ipsa distinctio illum consectetur non. Nulla aliquid assumenda fugiat sit eos. Fuga, voluptates itaque?</p>
+                        <!-- <button class="section_btn">START</button> -->
+                    </div>
+                </div>
+                
+                <div class="section3">
+                    <div class="text_block">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod laboriosam suscipit fugiat praesentium reiciendis ex nobis. Culpa, laborum dolore? Aut, cupiditate? Ab exercitationem inventore deserunt facilis rem. Nisi, cumque error.</p>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="section_btn">START</button> -->
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1444724334165-e7050f2229a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="" class="sec3">
+                </div>
+            </div> 
+
+
+            <div class="photo_galery">
+                <p><a href="#">Galery</a></p>
+                <div class="galery">
+                    <div class="media">
+                        <div class="layer">
+                        <p>night forest</p>
+                      </div>
+                    <img src="https://images.unsplash.com/photo-1512618831669-521d4b375f5d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" />
+                    </div>
+                     <div class="media">
+                        <div class="layer">
+                        <p>camp</p>
+                      </div>
+                    <img src="https://images.unsplash.com/photo-1597455561311-7bb5590e2585?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" />
+                    </div>
+                    <div class="media">
+                        <div class="layer">
+                        <p>forest</p>
+                      </div>
+                    <img src="https://images.unsplash.com/photo-1442965416224-f6a7eca980fa?dpr=1&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=" alt="" />
+                    </div>
+                    <div class="media">
+                        <div class="layer">
+                            <p>chel</p>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1612875775405-a9eb2029a2e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" />
+                    </div>
+                </div>    
+            </div>
+        </main>
+        <div class="ssh-footer-main">
+            <div class="ssh-sub-footer-content">
+                <section class="_form-3">
+                    <div class="form-main">
+                        <div class="wrapper">
+                            <div class="middle-section grid-column top-bottom">
+                                <div class="image grid-three-column">
+                                    <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" class="img-fluid img-responsive">
+                                </div>
+                                <div class="text-grid grid-three-column">
+                                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nesciunt.</h2>
+                                    <p>Sed lorem ipsum</p>
+                                </div>
+                                <div class="form-text grid-three-column">
+                                    <form action="/" method="GET">
+                                        <input type="email" name=" placeholder" placeholder="Введите свой Email" required="">
+                                        <button type="submit" class="submit-butn btn button-eff">Отправить</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </section>
+
+
+
+            <footer class="footer-14">
+                <div id="footers14-block">
+                    <!-- <div class="wrapper"> -->
+                        <div class="footers20-content">
+                            <div class="d-grid grid-col-4 grids-content">
+                                <div class="column">
+                                    <h4>Our adres</h4>
+                                    <p>Minsk Belarus</p>
+                                </div>
+                                <div class="column">
+                                    <h4>Tel me</h4>
+                                    <p><a href="tel:+375(29)776-23-83">+375(29)776-23-83</a></p>
+                                </div>
+                                <div class="column">
+                                    <h4>Mail</h4>
+                                    <p><a href="mailto:info@example.com">andreimalcev37@gmail.com</a></p>
+                                </div>
+                                <div class="column">
+                                    <h4>Look at</h4>
+                                    <ul>
+                                        <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+                                        <li><a href="#linkedin"><span class="fa fa-linkedin"
+                                            aria-hidden="true"></span></a>
+                                        </li>
+                                        <li><a href="#twitter"><span class="fa fa-twitter"
+                                            aria-hidden="true"></span></a>
+                                        </li>
+                                        <li><a href="#google"><span class="fa fa-google-plus"
+                                            aria-hidden="true"></span></a>
+                                        </li>
+                                        <li><a href="#github"><span class="fa fa-github" aria-hidden="true"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footers14-bottom d-flex">
+                            <div class="copyright">
+                                <p>© 2021 Lorem ipsum dolor sit. <a href="https://github.com/fdAndreano" target="_blank">здесь</a></p>
+                            </div>
+                            <div class="language-select d-flex">
+                                <span class="fa fa-language" aria-hidden="true"></span>
+                                <select>
+                                    <option>English</option>
+                                    <option>Estonina</option>
+                                    <option>Deutsch</option>
+                                    <option>Nederlan;ds</option>
+                                </select>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
